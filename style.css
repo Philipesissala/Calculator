@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+section{
+    width: 270px;
+    margin: 10vh auto;
+    padding: 35px 30px;
+    text-align: center;
+}
+
+section .visor input{
+    width: 250px;
+   padding: 10px 10px;
+   border: 2px solid grey;
+   margin-bottom: 20px;
+}
+
+section .buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px
+}
+
+section .buttons input{
+    padding: 20px 0;
+}
